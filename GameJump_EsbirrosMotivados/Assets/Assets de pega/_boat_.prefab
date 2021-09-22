@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &731171654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 731171655}
+  m_Layer: 0
+  m_Name: PlayerCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &731171655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731171654}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.11, z: 0}
+  m_LocalScale: {x: 0.060957022, y: 0.060957022, z: 0.060957022}
+  m_Children: []
+  m_Father: {fileID: 8593889584119942842}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8593889584119942837
 GameObject:
   m_ObjectHideFlags: 0
@@ -14,6 +44,7 @@ GameObject:
   - component: {fileID: 8593889584119942839}
   - component: {fileID: 8593889584119942838}
   - component: {fileID: 8593889584119942843}
+  - component: {fileID: 1307052540}
   m_Layer: 0
   m_Name: _boat_
   m_TagString: Untagged
@@ -31,7 +62,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 50.65, y: 18.05, z: 17}
   m_LocalScale: {x: 16.405, y: 16.405, z: 16.405}
-  m_Children: []
+  m_Children:
+  - {fileID: 731171655}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -109,7 +141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a084519b29a12374ab204e0b21251bba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topSpeed: 10
+  topSpeed: 15
+  boatRb: {fileID: 0}
 --- !u!54 &8593889584119942843
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -126,3 +159,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1307052540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8593889584119942837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597251f2e668d0842b15a0c127642fff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 0.4
+  rotateSpeed: 0.2
