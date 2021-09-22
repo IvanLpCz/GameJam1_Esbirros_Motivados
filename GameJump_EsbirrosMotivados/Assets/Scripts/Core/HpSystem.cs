@@ -11,7 +11,12 @@ namespace Core
         public float numberOfPeople = 100;
         public Canvas DeathPanel;
         Obstacles obstacles;
-        
+
+        public void Start()
+        {
+           obstacles = new Obstacles();
+        }
+
 
         private void Update()
         {
@@ -25,7 +30,7 @@ namespace Core
             }
             Debug.Log("cantidad de gente restante " + numberOfPeople);
         }
-        private void OnTriggerEnter(Collider other)
+        public void OnTriggerEnter(Collider other)
         {
             if(other.gameObject.CompareTag("Obstacle"))
             numberOfPeople = numberOfPeople - obstacles.amountOfDamage;
