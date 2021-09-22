@@ -16,7 +16,8 @@ namespace Core
         }
         private void Update()
         {
-            boatRb.velocity = new Vector3(boatRb.velocity.x, boatRb.velocity.y, topSpeed);
+            boatRb.velocity = transform.forward * topSpeed;
+           //new Vector3(boatRb.velocity.x, boatRb.velocity.y, topSpeed);
         }
     }
 
