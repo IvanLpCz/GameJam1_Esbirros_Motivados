@@ -7,6 +7,7 @@ namespace Controller
 {
     public class PlayerController : MonoBehaviour
     {
+        [Range (0, 10)]
         [SerializeField] float turnSpeed = 5;
         MoveForward moveforward;
         private bool goingRight, goingLeft = false;
