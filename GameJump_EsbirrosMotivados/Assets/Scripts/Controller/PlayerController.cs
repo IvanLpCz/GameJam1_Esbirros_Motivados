@@ -7,10 +7,8 @@ namespace Controller
 {
     public class PlayerController : MonoBehaviour
     {
-        [Range (0, 10)]
-        [SerializeField] float turnSpeed = 5f;
         [Range(0, 1)]
-        [SerializeField] float rotateSpeed = 1f;
+        [SerializeField] public float rotateSpeed = 1f;
         MoveForward moveforward;
 
         private void Start()

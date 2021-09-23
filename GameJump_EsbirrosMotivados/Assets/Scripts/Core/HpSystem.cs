@@ -22,7 +22,7 @@ namespace Core
         {
             if(numberOfPeople <= 0)
             {
-                DeathPanel.enabled = true;
+                DeathPanel.enabled = true;                
             }
             else
             {
