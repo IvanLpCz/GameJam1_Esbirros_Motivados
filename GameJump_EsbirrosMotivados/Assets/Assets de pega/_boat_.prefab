@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 731171655}
   m_Layer: 0
   m_Name: PlayerCamera
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,9 +45,10 @@ GameObject:
   - component: {fileID: 8593889584119942838}
   - component: {fileID: 8593889584119942843}
   - component: {fileID: 1307052540}
+  - component: {fileID: 708521162}
   m_Layer: 0
   m_Name: _boat_
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +95,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 988dc9da9300a1b4a865d7c8a232b8c3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -171,5 +172,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 597251f2e668d0842b15a0c127642fff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnSpeed: 0.4
   rotateSpeed: 0.2
+--- !u!114 &708521162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8593889584119942837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942825d5b6bce614ca3c3897e61abcca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfPeople: 5
+  DeathPanel: {fileID: 0}

@@ -7,7 +7,7 @@ namespace Core
 {
     public class MoveForward : MonoBehaviour
     {
-        [Range(0, 30)]
+        [Range(0, 100)]
         [SerializeField] public float topSpeed = 10;
         public Rigidbody boatRb;
         HpSystem hpsystem;

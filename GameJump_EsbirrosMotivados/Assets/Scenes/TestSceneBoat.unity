@@ -389,25 +389,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &708521155 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8593889584119942837, guid: 149fb976bb5a2994b909788aa618ab3a, type: 3}
-  m_PrefabInstance: {fileID: 8593889582864271168}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &708521162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708521155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 942825d5b6bce614ca3c3897e61abcca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberOfPeople: 5
-  DeathPanel: {fileID: 120418859}
 --- !u!4 &1307052539 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8593889584119942842, guid: 149fb976bb5a2994b909788aa618ab3a, type: 3}
@@ -756,10 +737,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4058832157740398375, guid: 16ebb79869145c24696df782586410cf, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 988dc9da9300a1b4a865d7c8a232b8c3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16ebb79869145c24696df782586410cf, type: 3}
 --- !u!1001 &8593889582864271168
@@ -769,26 +746,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 731171654, guid: 149fb976bb5a2994b909788aa618ab3a, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
+    - target: {fileID: 708521162, guid: 149fb976bb5a2994b909788aa618ab3a, type: 3}
+      propertyPath: DeathPanel
+      value: 
+      objectReference: {fileID: 120418859}
     - target: {fileID: 8593889584119942837, guid: 149fb976bb5a2994b909788aa618ab3a, type: 3}
       propertyPath: m_Name
       value: '"boat"'
       objectReference: {fileID: 0}
-    - target: {fileID: 8593889584119942837, guid: 149fb976bb5a2994b909788aa618ab3a, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8593889584119942838, guid: 149fb976bb5a2994b909788aa618ab3a, type: 3}
-      propertyPath: topSpeed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8593889584119942840, guid: 149fb976bb5a2994b909788aa618ab3a, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 988dc9da9300a1b4a865d7c8a232b8c3, type: 2}
     - target: {fileID: 8593889584119942842, guid: 149fb976bb5a2994b909788aa618ab3a, type: 3}
       propertyPath: m_RootOrder
       value: 5
