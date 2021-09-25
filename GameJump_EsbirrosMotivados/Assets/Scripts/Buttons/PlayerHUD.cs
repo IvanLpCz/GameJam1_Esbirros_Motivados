@@ -3,26 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Core;
 
 namespace Buttons
 {
     public class PlayerHUD : MonoBehaviour
     {
+        HpSystem hpsystem;
+
         public Button pauseButton;
         public TextMeshProUGUI hpText;
         public GameObject pauseMenu;
         public GameObject playerHUDObject;
-        public int hp;
+        private int hp;
 
-        private void Start()
+        public void Start()
         {
-            hp = 30;
-            hpText.text = "" + hp;
             //playerHUDObject = GameObject.Find("PlayerHud");
+            hpsystem = GameObject.Find("player").GetComponent<HpSystem>();
         }
         private void Update()
-        {
-            Debug.Log("hp left in the HUD " + hp);
+        {           
+            hp = hpsystem.numberOfPeople;
+            hpText.text = "" + hp;
+            Debug.Log("numberOfPeople" + hpsystem.numberOfPeople);
+            Debug.Log("vida hud" + hp);
         }
 
         public void PauseMenuButton()
@@ -33,9 +38,9 @@ namespace Buttons
         }
         public void updateHP(int hpleft)
         {
-            hp -= hpleft;
-            hpText.text = " " + hp;
-
+            hp = hp - 5;
+            //hpText.text = "" + hp;
+            
         }
     }
 }

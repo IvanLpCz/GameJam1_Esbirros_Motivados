@@ -22,7 +22,7 @@ namespace Core
         private void Update()
         {
             boatRb.velocity = transform.forward * topSpeed;
-            Debug.Log("Velocidad: " + topSpeed);
+            //Debug.Log("Velocidad: " + topSpeed);
 
             if(hpsystem.numberOfPeople <= 0)
             {

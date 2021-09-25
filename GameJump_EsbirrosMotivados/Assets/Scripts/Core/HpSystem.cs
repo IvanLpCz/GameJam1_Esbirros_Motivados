@@ -8,7 +8,7 @@ namespace Core
 {
     public class HpSystem : MonoBehaviour
     {
-        public int numberOfPeople;
+        public int numberOfPeople = 30;
         public Canvas DeathPanel;
         Obstacles obstacles;
 
@@ -28,7 +28,7 @@ namespace Core
             {
                 DeathPanel.enabled = false;
             }
-            Debug.Log("cantidad de gente restante " + numberOfPeople);
+            //Debug.Log("cantidad de gente restante " + numberOfPeople);
         }
         public void OnTriggerEnter(Collider other)
         {

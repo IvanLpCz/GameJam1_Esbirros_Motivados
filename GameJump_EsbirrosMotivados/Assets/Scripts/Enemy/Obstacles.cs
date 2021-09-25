@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Buttons;
+using TMPro;
+using UnityEngine.UI;
 
 namespace Obs
 {
@@ -21,7 +23,7 @@ namespace Obs
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                Debug.Log("Me ha dado el barco");
+                //Debug.Log("Me ha dado el barco");
                 playerHud.updateHP(amountOfDamage);
             }           
         }

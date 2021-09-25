@@ -185,5 +185,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942825d5b6bce614ca3c3897e61abcca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfPeople: 5
+  numberOfPeople: 30
   DeathPanel: {fileID: 0}
