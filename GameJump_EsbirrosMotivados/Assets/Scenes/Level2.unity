@@ -743,6 +743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraAndTerrain
       objectReference: {fileID: 0}
+    - target: {fileID: 984692107415536008, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
+      propertyPath: DeathPanel
+      value: 
+      objectReference: {fileID: 53672330}
     - target: {fileID: 4769345344796929989, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -789,19 +793,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6522413100381464520, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 78.59999
+      value: 158.30002
       objectReference: {fileID: 0}
     - target: {fileID: 6522413100381464520, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.3611755
+      value: -49.800003
       objectReference: {fileID: 0}
     - target: {fileID: 6522413100472303417, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 78.59999
+      value: 158.30002
       objectReference: {fileID: 0}
     - target: {fileID: 6522413100472303417, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.3611755
+      value: -49.800003
       objectReference: {fileID: 0}
     - target: {fileID: 8976884792750649283, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
       propertyPath: DeathPanel

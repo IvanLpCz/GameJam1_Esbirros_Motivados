@@ -1738,7 +1738,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1224965156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3313,8 +3313,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 491918642252887987, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
       propertyPath: m_Name
-      value: CameraAndTerrain
+      value: CameraAndPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 984692107415536008, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
+      propertyPath: DeathPanel
+      value: 
+      objectReference: {fileID: 1224965158}
     - target: {fileID: 4769345344796929989, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3359,9 +3363,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8976884792750649283, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
-      propertyPath: DeathPanel
-      value: 
-      objectReference: {fileID: 1224965158}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93e34623ff7bbd1488ad6293f2bdeceb, type: 3}
