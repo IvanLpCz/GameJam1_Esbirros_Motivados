@@ -8,7 +8,7 @@ namespace Core
 {
     public class HpSystem : MonoBehaviour
     {
-        public float numberOfPeople = 100;
+        public int numberOfPeople;
         public Canvas DeathPanel;
         Obstacles obstacles;
 
