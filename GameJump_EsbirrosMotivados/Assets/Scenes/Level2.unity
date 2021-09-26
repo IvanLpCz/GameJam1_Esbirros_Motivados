@@ -3248,14 +3248,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 295843005758837549, guid: dd1eeddb2066e4f46bc3c463d611bbf9, type: 3}
-      propertyPath: endPhaseMenu
-      value: 
-      objectReference: {fileID: 1992742233}
-    - target: {fileID: 295843005758837586, guid: dd1eeddb2066e4f46bc3c463d611bbf9, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 295843005800977877, guid: dd1eeddb2066e4f46bc3c463d611bbf9, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -10933,11 +10925,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ac12c4ddd2925c4cb208a96616c6949, type: 3}
---- !u!1 &1992742233 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7499957951447462381, guid: 5206cf1d744417840a6daac17a4ad9df, type: 3}
-  m_PrefabInstance: {fileID: 889171668}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2011409095
 PrefabInstance:
   m_ObjectHideFlags: 0
