@@ -25,25 +25,12 @@ Transform:
   m_GameObject: {fileID: 7166595335577098086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 513.4}
-  m_LocalScale: {x: 9.865178, y: 9.865178, z: 9.865178}
+  m_LocalScale: {x: 12.888674, y: 12.888674, z: 12.888674}
   m_Children:
   - {fileID: 7277365106608074473}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &927920593369431633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8049539665683952723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbbc11c28a9cd9b4fbd35882bbc4a318, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amountOfDamage: 5
 --- !u!65 &1301849803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57,6 +44,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.87015134, y: 0.78234017, z: 1.2645248}
   m_Center: {x: -0.12269085, y: -0.000000029802333, z: -4.440892e-16}
+--- !u!114 &927920593369431633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8049539665683952723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbbc11c28a9cd9b4fbd35882bbc4a318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amountOfDamage: 5
 --- !u!1001 &7166595334847531266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -131,6 +131,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b12602c8342d6347900690ae09dc0d5, type: 3}
       propertyPath: m_TagString
       value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b12602c8342d6347900690ae09dc0d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b12602c8342d6347900690ae09dc0d5, type: 3}
