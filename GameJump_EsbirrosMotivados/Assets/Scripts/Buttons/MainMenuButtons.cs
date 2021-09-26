@@ -17,7 +17,7 @@ namespace Buttons
         }
         public void CreditsScene()
         {
-            SceneManager.LoadScene("Credits");
+            SceneManager.LoadScene("CreditsMenu");
         }
         public void ExitGame()
         {
