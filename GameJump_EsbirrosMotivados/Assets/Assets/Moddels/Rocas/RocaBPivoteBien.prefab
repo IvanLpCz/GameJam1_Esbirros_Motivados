@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6602838895204302609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8660631553014893490}
+  - component: {fileID: 5845427267714065112}
+  - component: {fileID: 7241423178070532325}
+  m_Layer: 0
+  m_Name: RocaBPivoteBien
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8660631553014893490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602838895204302609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2452983848358173820}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5845427267714065112
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602838895204302609}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.5722013
+  m_Center: {x: 0, y: 1.0722013, z: 0}
+--- !u!114 &7241423178070532325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602838895204302609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbbc11c28a9cd9b4fbd35882bbc4a318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amountOfDamage: 5
+--- !u!1001 &4541261884959443925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8660631553014893490}
+    m_Modifications:
+    - target: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.512236
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.85884476
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -118.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347443393098346770, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+      propertyPath: m_Name
+      value: RocaB
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+--- !u!4 &2452983848358173820 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2094018039206877097, guid: a4ede287b795d9747b263a4e3379e605, type: 3}
+  m_PrefabInstance: {fileID: 4541261884959443925}
+  m_PrefabAsset: {fileID: 0}
